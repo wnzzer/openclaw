@@ -330,11 +330,8 @@ describe("runPreparedReply media-only handling", () => {
           images: [
             {
               type: "image",
-              source: {
-                type: "base64",
-                mediaType: "image/png",
-                data: "iVBORw0KGgoAAAANSUhEUg==",
-              },
+              data: "iVBORw0KGgoAAAANSUhEUg==",
+              mimeType: "image/png",
             },
           ],
         },
